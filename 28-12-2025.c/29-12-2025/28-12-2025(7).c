@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int a; 
+    scanf("%d",&a);
+    if(a%5==0){
+        printf("divisible");
+    }
+    else 
+    printf("not");
+    return 0;
+}
