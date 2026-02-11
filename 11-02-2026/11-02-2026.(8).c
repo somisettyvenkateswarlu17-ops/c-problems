@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int num;
+    printf("enter the number",num);
+    scanf("%d",&num);
+     if(num%5==0){
+        printf("divisible by 5");
+     }
+     else {
+        printf("not divisible by 5");
+     }
+    return 0;
+}
