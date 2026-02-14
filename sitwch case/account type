@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int account_type;
+    int years;
+    scanf("%d %d",&account_type,&years);
+    switch(account_type){
+        case 1:
+        printf("/n=====saving account====/n",account_type);
+        printf("intreset 4%",years);
+        break;
+    case 2:
+        printf("/n=====fixed deposit===/n",account_type);
+    if(years<=3){
+        printf("interest=5%",years);}
+
+        else if(years>3){
+            printf("interrest = 7%",years);
+        }
+        else {
+            printf("valid years",years);
+        }
+        break;
+        default:
+        printf("case between ",account_type);
+    }
+    
+    
+    return 0;
+}
