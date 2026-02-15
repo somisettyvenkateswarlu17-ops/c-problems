@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char station[50] = "Coimbatore Jn";
+
+    printf("Before Change: %s\n", station);
+
+    // Replace with new station
+    strcpy(station, "Erode Jn");
+
+    printf("After Change: %s\n", station);
+
+    return 0;
+}
