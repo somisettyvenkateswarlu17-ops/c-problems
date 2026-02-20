@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int n;
+    scanf("%d",&n);
+    int mul=0;
+    for(int i=1;i<=n;i++){
+           mul=n*i;
+        printf("%d ",mul);
+
+    }
+    return 0;
+}
