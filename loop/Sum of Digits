@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int n,sum=0,digit;//123
+    scanf("%d",&n);
+    for(;n!=0;n=n/10){//0<=1;
+         digit= n%10;
+        sum=sum+digit;//0+1=1
+         
+    }
+    printf("%d ",sum);
+    return 0;
+}
