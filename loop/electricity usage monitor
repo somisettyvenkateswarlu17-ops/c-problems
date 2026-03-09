@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int units,num;
+    scanf("%d",&num);
+    int count=0,sum=0;
+    for(int i=0;i<num;i++){
+        scanf("%d",&units);
+         count++;
+            
+             sum=sum+units;
+             }
+            
+             printf("Total unit: %d",sum);
+    return 0;
+}
