@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int n,battery_percent,per_hour;
+    scanf("%d %d",&battery_percent,&n);
+    int drain=0;
+     for(int i=0;i<n;i++){
+        scanf("%d",&drain);
+        per_hour+=drain;
+    }
+     int r=battery_percent-per_hour;
+     
+       printf("Remaining battery: %d",r);
+    return 0;
+}
