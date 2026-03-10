@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int num,per_day;
+    scanf("%d",&num);
+    int sum=0,count=0;
+    for(int i=0;i<num;i++){
+        scanf("%d",&per_day);
+        if(per_day>50){
+            count++;
+
+        }
+        sum=sum+per_day;
+    }
+    printf("Heavy Rainfall: %d\n",count);
+    printf("Total Rainfall: %d",sum);
+    return 0;
+}
