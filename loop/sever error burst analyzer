@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    int num,hours;
+    scanf("%d",&num);
+    int sum=0,count=0;
+    for(int i=0;i<num;i++){
+        scanf("%d",&hours);
+        if(hours>50){
+            count++;
+
+        }
+        sum=sum+hours;
+    }
+    printf("Critical Hours: %d\n",count);
+    printf("Total Errors: %d",sum);
+    return 0;
+}
