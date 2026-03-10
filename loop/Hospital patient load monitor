@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    int num,patients;
+    scanf("%d",&num);
+    int sum=0,count=0;
+    for(int i=0;i<num;i++){
+        scanf("%d",&patients);
+        if(patients>100){
+            count++;
+
+        }
+        sum=sum+patients;
+    }
+    printf("Over crowded Days: %d\n",count);
+    printf("Total patients: %d",sum);
+    return 0;
+}
