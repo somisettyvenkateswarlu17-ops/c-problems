@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num, temp, rem, sum = 0, i = 1;
+
+    printf("Enter number: ");
+    scanf("%d", &num);
+
+    temp = num;
+
+    for (; temp != 0; temp /= 10) {
+        rem = temp % 10;
+        sum += pow(rem, i);
+        i++;
+    }
+
+    printf("Result = %d", sum);
+
+    return 0;
+}
