@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class KYC {
+    public static void main(String[] args) {
+        Scanner shanmugha =new Scanner(System.in);
+       String name="", address = "", pan ="";long aadhaar = 0L,mobile=0L;
+       System.out.println("welcome to Shanmugha");
+       System.out.println("Let me known the name" );
+       name = shanmugha.nextLine();
+       System.out.println("Lets me know the address");
+       address = shanmugha.nextLine();
+       System.out.println("Enter the pan number");
+       pan = shanmugha.nextLine();
+       System.out.println("Mobile number");
+       mobile = shanmugha.nextLong();
+       System.out.println("enter the aadhaar");
+       aadhaar = shanmugha.nextLong();
+       System.out.println("KYC as sucessful done by person " +name+ " futher upadate for " +mobile);
+    
+    shanmugha.close();
+    }
+}
